@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ 
+ h1::before {
+    content: "<<";
+    color: crimson;
+ }
+
+ h1::after {
+    content: ">>";
+    color: crimson;
+ }
+
+ h1 {
+    color: crimson;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+ }
+
+ p {
+    font-size: 22px;
+ }
+
+ p::first-letter {
+    font-size: 34px;
+    color: crimson;
+ }
+
+ p::first-line {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: gray;
+ }
+
+ span {
+    font-size: 24px
+ }
